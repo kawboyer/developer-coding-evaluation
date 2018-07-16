@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-appdev</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-390.000000, -528.000000)">
+            <g transform="translate(-1.000000, -2.000000)" id="services">
+                <g transform="translate(1.000000, 482.000000)">
+                    <g id="Group-2" transform="translate(81.000000, 49.000000)">
+                        <g id="App-Dev" transform="translate(310.000000, 0.000000)">
+                            <g id="icon-appdev">
+                                <path d="M27.5447866,19.9845462 C31.8997403,24.360488 35.2585529,27.7343322 35.2585529,27.7343322 C35.7359184,28.2151541 35.6461967,29.0785531 35.1688312,29.5582192 L29.4174397,35.4055223 C28.9400742,35.8863442 27.8139518,36.1059503 27.1168831,35.4055223 C27.1168831,35.4055223 24.1549165,32.2200771 19.8379221,27.8822774 M8.19365492,16.1818921 C3.7593321,11.7250428 0.660482375,8.75342466 0.660482375,8.75342466 C0.183116883,8.27375856 -0.129758813,7.2369863 0.660482375,6.44178082 L6.41187384,0.662671233 C6.88923933,0.183005137 7.82556586,-0.227311644 8.71243043,0.662671233 C8.71243043,0.662671233 11.5823748,3.94520548 16.0535065,8.43788527 M25.6065677,33.3874572 L29.9925788,28.9803082 M22.2040445,29.8702911 L24.2411874,27.8244863 M2.57684601,10.2941353 L6.98701299,5.86386986 M6.05298701,13.7373288 L8.13729128,11.6429795" id="Stroke-1" stroke="#F57A23" stroke-width="1.792" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <polygon id="Fill-2" points="3.72022263 24.6633134 23.5050093 4.78317637 31.2463822 12.5618579 11.5881262 32.447774 0.0853432282 35.8909675"></polygon>
+                                <polygon id="Stroke-3" stroke="#F57A23" stroke-width="1.792" stroke-linecap="round" stroke-linejoin="round" points="3.72022263 24.6633134 23.5050093 4.78317637 31.2463822 12.5618579 11.5881262 32.447774 0.0853432282 35.8909675"></polygon>
+                                <path d="M31.2141744,12.5618579 L35.5150649,8.24023973 C35.9901299,7.76288527 35.9901299,6.98848459 35.5150649,6.51113014 L29.4945083,0.460402397 C29.0194434,-0.0169520548 28.248757,-0.0169520548 27.773692,0.460402397 L23.4728015,4.78317637" id="Stroke-4" stroke="#F57A23" stroke-width="1.792" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M29.1160668,10.4536387 L10.4378479,28.9803082 L11.430538,32.440839 M3.68801484,24.6633134 L7.02727273,25.425 L25.4972913,6.81626712" id="Stroke-5" stroke="#F57A23" stroke-width="1.792" stroke-linejoin="round"></path>
+                                <polyline id="Stroke-6" stroke="#F57A23" stroke-width="1.792" stroke-linecap="round" stroke-linejoin="round" points="6.98701299 25.5128425 6.98701299 28.9803082 10.4378479 28.9803082"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
