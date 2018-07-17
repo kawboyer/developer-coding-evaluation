@@ -1,0 +1,45 @@
+.image-5th3rd {
+  position: absolute;
+  display: inline-block;
+  padding-top: 10%;
+  size: 120%;
+}
+
+.image-bg-5th3rd {
+  background-color: #303549;
+  width: "100%";
+}
+
+/* .content {
+} */
+
+.title-5th3rd {
+  position: absolute;
+  top: 190%;
+  left: 15%;
+  color: #FDFEFE;
+}
+
+.subtitle-5th3rd {
+  position: absolute;
+  top: 195%;
+  left: 15%;
+  text-transform: uppercase;
+  color: #FDFEFE;
+}
+
+.body-5th3rd {
+  position: absolute;
+  top: 200%;
+  left: 15%;
+  color: #FDFEFE;
+}
+
+#button-5th3rd {
+  position: absolute;
+  top: 210%;
+  left: 20%;
+  background: #FFFFFF;
+  color: #303549;
+  padding: 15px;
+}

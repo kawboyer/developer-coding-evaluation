@@ -1,0 +1,33 @@
+.image-gojo {
+  position: absolute;
+  top: 98.5%;
+  left: 15%;
+}
+
+.title-gojo {
+  position: absolute;
+  left: 50%;
+  top: 110%;
+}
+
+.subtitle-gojo {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  text-transform: uppercase;
+}
+
+.body-gojo {
+  position: absolute;
+  left: 50%;
+  top: 125%;
+  color: #616161;
+}
+
+#button-gojo {
+  position: absolute;
+  top: 135%;
+  background: #3885CD;
+  color: white;
+  padding: 15px;
+}

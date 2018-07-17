@@ -1,0 +1,35 @@
+.image-chhn {
+  position: absolute;
+  top: 290%;
+  left: -5%;
+}
+
+.title-chhn {
+  position: absolute;
+  left: 50%;
+  top: 300%;
+  color: #FDFEFE;
+}
+
+.subtitle-chhn {
+  position: absolute;
+  top: 305%;
+  left: 50%;
+  text-transform: uppercase;
+  color: #FDFEFE;
+}
+
+.body-chhn {
+  position: absolute;
+  left: 50%;
+  top: 315%;
+  color: #FDFEFE;
+}
+
+#button-chhn {
+  position: absolute;
+  top: 330%;
+  color: #FDFEFE;
+  color: #303549;
+  padding: 15px;
+}
