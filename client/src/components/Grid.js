@@ -1,8 +1,5 @@
 import React from 'react';
-import hero from '../assets/images/pic-hero.png';
-import logo from '../assets/logos/logo-cardinal.png';
 import styled from 'styled-components';
-import '../css/Hero.css';
 
 const Row = styled.div`
   &::after {
@@ -37,20 +34,19 @@ const Column = styled.div`
   }
 `;
 
-const Hero = () => (
-  <div>     
-    <Row>
-      <img id="background-hero" src={hero} alt="" />
-      <Column xs="12" sm="4" md="2">
-        <img id="logo" src={logo} alt="Company Logo" />
-      </Column>
-    </Row>
-    <Row>
-      <Column xs="12" sm="8" md="10">
-        <h1 className="caption"><span>Enjoy the proven success of our experience.</span></h1>
-      </Column>
-    </Row> 
-  </div>
-);
+// export default function MyApp(props) {
+//   return (
+//     <div>
+//       <Row>
+//         <Column xs="12" sm="6" md="8">
+//         md: 8 - sm: 6 - xs: 12
+//         </Column>
+//         <Column xs="6" md="4">
+//         md: 4 - xs: 6
+//         </Column>
+//       </Row>
+//     </div>
+//   );
+// }
 
-export default Hero;
+export default Grid;
