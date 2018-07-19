@@ -1,8 +1,49 @@
-.content {
-  background-color: #D8D8D8;
+/* @font-face {
+  font-family: 'Effra';
+  src: url('/assets/fonts') format('truetype');
+} */
+
+footer {
+  background: #D3D2D3;
+  height: 85px;
   position: absolute;
-  height: 50px;
   width: 100%;
-  text-align: left;
-  margin-top: 0px;
+}
+#logo-facebook, #logo-google, #logo-twitter {
+  align-content: center;
+  margin-top: 18px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+#logo-google {
+  padding-right: 100px;
+}
+.copyright {
+  float: left;
+  font-size: 14px;
+  padding-left: 100px;
+  padding-top: 37px;
+}
+
+/* MOBILE (xs)  */
+@media screen and (max-width: 768px) {
+  footer {
+    height: 115px;
+    position: fixed;
+  }
+  #logo-facebook {
+    padding-left: 50px;
+    width: 3%;
+  }
+  #logo-google, #logo-twitter {
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 15px;
+    width: 6%;
+  }
+  .copyright {
+    /* padding-right: 20px; */
+    font-size: 12px;
+    align-content: center;
+  }
 }

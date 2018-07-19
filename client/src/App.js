@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Hero from './components/Hero.js';
+import Header from './components/Header.js';
 // import Gojo from './components/Gojo.js';
 // import FifthThird from './components/FifthThird.js';
 // import Chhn from './components/Chhn.js';
@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Hero />
+        <Header />
         {/* <Gojo />
         <FifthThird />
         <Chhn />

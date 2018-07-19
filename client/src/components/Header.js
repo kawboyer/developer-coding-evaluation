@@ -2,8 +2,9 @@ import React from 'react';
 import hero from '../assets/images/pic-hero.png';
 import logo from '../assets/logos/logo-cardinal.png';
 import styled from 'styled-components';
-import '../css/Hero.css';
+import '../css/Header.css';
 
+// Define Row
 const Row = styled.div`
   &::after {
     content: "";
@@ -19,34 +20,29 @@ function getWidthString(span) {
   return `width: ${width}%`;
 }
 
+// Define Column
 const Column = styled.div`
   float: left;
 
   ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
 
   @media only screen and (min-width: 768px) {
-    ${({ sm }) => sm && getWidthString(sm)}; 
-  }
-
-  @media only screen and (min-width: 992px) {
-    ${({ md }) => md && getWidthString(md)};
+    ${({ md }) => md && getWidthString(md)}; 
   }
 `;
 
-const Hero = () => (
-  <header>     
+const Header = () => (
+  <header>   
     <Row>
-      <img id="background-hero" src={hero} alt="" />
-      <Column xs="12" sm="4" md="2">
-        <logo id="logo" src={logo} alt="Company Logo" />
+      <img id="background-header" src={hero} alt="" /> 
+      <Column xs="12" md="2">
+        <img id="logo-cardinal" src={logo} alt="Company Logo" />
+      </Column>
+      <Column xs="12" md="10">
+        <h1 className="title"><span>Enjoy the proven success of our experience.</span></h1>
       </Column>
     </Row>
-    <Row>
-      <Column xs="12" sm="8" md="10">
-        <h1 className="caption"><span>Enjoy the proven success of our experience.</span></h1>
-      </Column>
-    </Row> 
   </header>
 );
 
-export default Hero;
+export default Header;

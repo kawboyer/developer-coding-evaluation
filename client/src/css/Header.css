@@ -1,0 +1,44 @@
+/* @font-face {
+  font-family: 'Effra';
+  src: url('/assets/fonts') format('truetype');
+} */
+
+#background-header { 
+  width: 100%;
+}
+#logo-cardinal {
+  /* left: 10%;
+  position: fixed;
+  top: 5%;
+  width: 12%; */
+}
+.title {
+  color: white;
+  font-size: 80px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transform: translate( -50%, -50%);
+  width: 70%;
+}
+
+/* MOBILE (xs)  */
+@media screen and (max-width: 768px) {
+  #background-header {
+    float: right;
+    margin: 0 -28% -10% 0;
+    width: 200%;
+  }
+  #logo-cardinal {
+    /* align-content: center; */
+    position: fixed;
+    top: 5%;
+    width: 45%;
+  }
+  .title {
+    font-size: 25px;
+    position: fixed;
+    width: 90%;
+  }
+}

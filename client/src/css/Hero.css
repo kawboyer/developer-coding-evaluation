@@ -3,15 +3,6 @@
   src: url('/assets/fonts') format('truetype');
 }
 
-#logo {
-
-}
-
-.background-hero {
-  position: relative;
-  width: 100%;
-}
-
 .caption {
   color: white;
   position: absolute;
@@ -60,5 +51,6 @@
     position: absolute;
     float: left;  
     top: 40px;
+    width: 12%;
   }
 }
