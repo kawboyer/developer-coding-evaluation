@@ -4,7 +4,8 @@ import Header from './components/Header.js';
 // import FifthThird from './components/FifthThird.js';
 // import Chhn from './components/Chhn.js';
 // import Connect from './components/Connect.js';
-import Footer from './components/Footer.js';
+// import Footer from './components/Footer.js';
+// import StickyFooter from './components/StickyFooter.js';
 import './App.css';
 
 
@@ -21,7 +22,7 @@ class App extends Component {
         <FifthThird />
         <Chhn />
         <Connect /> */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

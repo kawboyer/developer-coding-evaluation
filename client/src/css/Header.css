@@ -5,20 +5,20 @@
 
 #background-header { 
   width: 100%;
+  height: 100%;
 }
 #logo-cardinal {
-  /* left: 10%;
-  position: fixed;
   top: 5%;
-  width: 12%; */
+  width: 12%;
 }
 .title {
   color: white;
-  font-size: 80px;
+  font-size: 5.5vw;
+  line-height: 8vw;
   left: 50%;
   position: absolute;
   text-align: center;
-  top: 45%;
+  top: 40%;
   transform: translate( -50%, -50%);
   width: 70%;
 }
@@ -31,14 +31,23 @@
     width: 200%;
   }
   #logo-cardinal {
-    /* align-content: center; */
+    left: 30vw;
     position: fixed;
-    top: 5%;
-    width: 45%;
+    top: 9vw;
+    width: 44vw;
   }
   .title {
-    font-size: 25px;
-    position: fixed;
+    font-size: 7vw;
+    line-height: 13vw;
+    top: 46vw;
     width: 90%;
+  }
+}
+
+/* DESKTOP (md) */
+@media screen and (min-width: 768px) {
+  #logo-cardinal {
+    left: 8vw;
+    position: absolute;
   }
 }

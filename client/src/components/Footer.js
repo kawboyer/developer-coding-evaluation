@@ -1,47 +1,47 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import twitter from '../assets/icons/icon-twitter.svg';
 import facebook from '../assets/icons/icon-facebook.svg';
 import google from '../assets/icons/icon-g+.svg';
 import '../css/Footer.css';
 
-const Row = styled.div`
-  &::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-`;
+// const Row = styled.div`
+//   &::after {
+//     content: "";
+//     clear: both;
+//     display: table;
+//   }
+// `;
 
-function getWidthString(span) {
-  if (!span) return;
+// function getWidthString(span) {
+//   if (!span) return;
 
-  let width = span / 12 * 100;
-  return `width: ${width}%`;
-}
+//   let width = span / 12 * 100;
+//   return `width: ${width}%`;
+// }
 
-const Column = styled.div`
-  float: left;
+// const Column = styled.div`
+//   float: left;
 
-  ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
+//   ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
 
-  @media only screen and (min-width: 768px) {
-    ${({ md }) => md && getWidthString(md)}; 
-  }
-`;
+//   @media only screen and (min-width: 768px) {
+//     ${({ md }) => md && getWidthString(md)}; 
+//   }
+// `;
 
 const Footer = () => (
-  <footer> 
-    <Row>
-      <Column xs="12" md="10">
+  <footer>
+    <div class="content">
+      <div>
         <div className="copyright">&copy; 2016 Cardinal Solutions. All rights reserved.</div>
-      </Column>
-      <Column xs="12" md="2">
+      </div>
+      <div id="logo">
         <img id="logo-twitter" src={twitter} alt="Twitter Logo" width="20px"/>
         <img id="logo-facebook" src={facebook} alt="Facebook Logo" width="10px"/>
         <img id="logo-google" src={google} alt="Google Plus Logo" width="20px"/>
-      </Column>
-    </Row>
+      </div>
+    </div>
   </footer>
 );
 
