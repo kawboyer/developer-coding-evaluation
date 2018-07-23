@@ -3,62 +3,60 @@
   src: url('/assets/fonts') format('truetype');
 } */
 
+footer {
+  background: #D3D2D3;
+  display: flex;
+  flex-direction: column;
+  height: 4.5vw;
+  position: absolute;
+  width: 100%;
+}
+#logo-facebook, #logo-twitter {
+  padding-left: 3vw;
+  padding-top: 1.2vw;
+}
+#logo-google {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 1.7vw;
+}
 .content {
   flex: 1 0 auto;
   height: 100px;
 }
-
-footer {
-  position: sticky;
-  flex-direction: column;
-  display: flex;
-  background: #D3D2D3;
-  height: 85px;
-  position: absolute;
-  width: 100%;
-}
-#logo-facebook, #logo-google, #logo-twitter {
-  align-content: center;
-  margin-top: 18px;
-  padding-left: 30px;
-  padding-top: 15px;
-}
-#logo-google {
-  padding-right: 100px;
-}
 .copyright {
-  /* float: left; */
-  font-size: 14px;
-  /* padding-left: 100px; */
-  padding-top: 37px;
+  float: left;
+  font-size: 0.8vw;
+  padding-left: 8vw;
+  padding-right: 52vw;
+  padding-top: 1.7vw;
 }
 
 /* MOBILE (xs)  */
 @media screen and (max-width: 768px) {
   footer {
-    height: 115px;
     display: flex;
-    margin-top: -20%;
-    /* position: fixed; */
+    height: 35vw;
+    margin-top: 95vw;
   }
   #logo-facebook {
-    /* padding-left: 50px; */
-    margin-top: 0;
-    padding-left: 50px;
+    margin-top: 8vw;
+    padding-left: 11vw;
     padding-top: 0;
-    width: 3%;
+    width: 3vw;
   }
-  #logo-google, #logo-twitter {
-    padding-left: 50px;
-    /* align-content: center; */
-    /* padding-left: 30px; */
-    /* padding-right: 15px; */
-    width: 6%;
+  #logo-google {
+    padding-left: 11vw;
+    width: 7vw;
+  }
+  #logo-twitter {
+    padding-left: 5vw;
+    width: 7vw;
   }
   .copyright {
-    /* padding-right: 20px; */
-    font-size: 14px;
-    align-content: center;
-    padding-top: 37px;
+    font-size: 3.8vw;
+    margin-top: 1vw;
+    padding-top: 30px;
+    width: 90vw;
   }
 }
