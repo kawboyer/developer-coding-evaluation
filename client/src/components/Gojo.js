@@ -6,6 +6,7 @@ import '../css/Gojo.css';
 const Gojo = () => (
   <div> 
     <img className="image-gojo" src={image} />
+    <div id="color-background-gojo">Here</div>
     <img className="image-bg-gojo" src={imageBg} width="100%" />
     <h2 className="title-gojo">
       Gojo
