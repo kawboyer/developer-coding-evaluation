@@ -1,0 +1,23 @@
+#clients {
+  background: #313540;
+  height: 13vw;
+  width: 40vw;
+  color: white;
+  margin-left: 8vw;
+  padding-top: 2.7vw;
+}
+.title-clients {
+  margin-left: -24vw;
+}
+p {
+  line-height: 1.7vw;
+  font-size: 1.1vw;
+  width: 18vw;
+}
+h3 {
+  font-size: 1.7vw;
+  font-style: normal;
+}
+.body-clients {
+  width: 23vw;
+}
