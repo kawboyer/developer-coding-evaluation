@@ -1,0 +1,96 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto auto 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+#score-title    { grid-column: 2; grid-row: 1; }
+#board-title    { grid-column: 3; grid-row: 1; }
+#control-title  { grid-column: 4; grid-row: 1; }
+
+#score-title, #board-title, #controls-title {
+  border: solid;
+}
+
+#score-body, #board-body, #controls-body {
+  border: solid;
+  text-align: left;
+}
+
+.clear { clear: left }
+
+/* FIRST ATTEMPT FOR GRID */
+
+/* body {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+  "section-content1  section-content2  section-content3" ;
+} */
+
+/* .section-content1 {
+  background: red;
+  border: solid;
+}
+.section-content2 {
+  background: blue;
+  border: solid;
+} 
+.section-content3 {
+  background: red;
+  border: solid;
+} */
+
+
+/* ORIGINAL WITHOUT GRID */
+/* p {
+  margin-left: 3.5vw;
+  width: 14vw;
+  text-align: left;
+} */
+
+/* #background-services {
+  background: #EEEEEE;
+  height: 20vw;
+  margin-top: -0.2vw;
+  width: 100%;
+}
+#img-bi, #img-appdev, #img-ba {
+  float: left;
+}
+.business-intelligence {
+  float: left;
+  margin-top: 3vw;
+  padding-left: 8vw;
+}
+.business-intelligence-2 {
+  float: left;
+  margin-top: 3vw;
+  padding-left: 1vw;
+}
+.business-intelligence-3 {
+  float: left;
+  margin-top: 3vw;
+  padding-left: 0.5vw;
+}
+p {
+  margin-left: 3.5vw;
+  width: 14vw;
+  text-align: left;
+}
+h3 {
+  font-size: 2.1vw;
+  margin: 0.3vw;
+}
+#business-intelligence {
+  width: 26vw;
+}
+#app-development {
+  width: 24vw;
+}
+#business-analysis {
+  width: 24vw;
+} */
