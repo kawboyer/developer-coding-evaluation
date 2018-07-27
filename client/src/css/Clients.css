@@ -1,23 +1,81 @@
-#clients {
+.grid-container-clients {
+  display: grid;
+
+  grid-template-columns: 90px 1fr 1fr 1fr 1fr 90px;
+  grid-column-gap: 15px;
+  grid-template-rows: repeat(2, 1fr 1fr);
+  /* [row1-start] 90px 1fr 1fr 1fr 1fr 90px [row1-end]
+  [row2-start] 90px 1fr 1fr 1fr 1fr 90px [row2-end]; */
+  /* grid-template-areas: ". box-1 box-1 box-2 box-3 ."; */
+  grid-auto-flow: row;
+  justify-content: flex-start;
+  /* margin-top: -70px; */
+  margin-bottom: 20%;
+}
+.grid-container-clients > div {
+  font-size: 24px;
+  height: 315px;
+  text-align: left;
+}
+
+#box-1 {
   background: #313540;
-  height: 13vw;
-  width: 40vw;
   color: white;
-  margin-left: 8vw;
-  padding-top: 2.7vw;
+  grid-column: 2 / -4;
+  grid-row: 1;
 }
-.title-clients {
-  margin-left: -24vw;
+#box-2 {
+  border: solid 0.05px;
+  grid-column: 4;
+  grid-row: 1;
 }
-p {
-  line-height: 1.7vw;
-  font-size: 1.1vw;
-  width: 18vw;
+#box-3 {
+  border: solid 0.05px;
+  grid-column: 5;
+  grid-row: 1;
 }
-h3 {
-  font-size: 1.7vw;
-  font-style: normal;
+#box-4 {
+  border: solid 0.05px;
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 20px;
 }
-.body-clients {
-  width: 23vw;
+#box-5 {
+  border: solid 0.05px;
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 20px;
+}
+#box-6 {
+  border: solid 0.05px;
+  grid-column: 4;
+  grid-row: 2;
+  margin-top: 20px;
+}
+#box-7 {
+  border: solid 0.05px;
+  grid-column: 5;
+  grid-row: 2;
+  margin-top: 20px;
+}
+
+#img-fifththird, #img-chhn, #img-chs, #img-skanska, #img-rackroom, #img-pg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: auto; */
+}
+#img-rackroom, #img-pg {
+  width: 60%;
+}
+.box-1-body {
+
+  padding-left: 15%;
+  width: 58%;
+  font-size: 16px;
+
+}
+.box-1-title {
+  padding-top: 5%;
+  padding-left: 15%;
 }
