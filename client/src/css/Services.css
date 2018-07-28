@@ -1,36 +1,110 @@
-.grid-container-services {
-  background: #EEEEEE;
-  display: grid;
-  grid-template-columns: 90px 1fr 1fr 1fr 90px;
-  grid-column-gap: 15px;
-  grid-template-rows: 100%;
-  height: 315px;
-  /* justify-content: flex-start; */
-  justify-content: flex-start;
-  margin-top: -3px;
-  margin-bottom: -70px;
-}
-.grid-container-services > div {
-  font-size: 24px;
-  text-align: left;
+@font-face {
+  /* Bold */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  /* Light */
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  /* Medium */
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
+  /* Regular */
+  font-family: "Effra_Std_Rg";
+  src: url("../assets/fonts/Effra_Std_Rg.ttf");
 }
 
-#section-1 { grid-column: 2; }
-#section-2 { grid-column: 3; }
-#section-3 { grid-column: 4; }
+/* MOBILE (xs)  */
+@media screen and (max-width: 600px) {
+  .grid-container-services {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 70px 1fr 70px;
+    grid-column-gap: 5px;
+    grid-template-rows: repeat(3, 1fr 1fr 1fr);
+    grid-auto-flow: row;
+    margin-top: 60px;
+  }
+  .grid-container-services > div {
+    font-family: "Effra_Std_Rg";
+    font-size: 28px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+  }
+  #img-appdev, #img-bi {
+    margin-bottom: -6%;
+    width: 15%;
+  }
+  #img-ba {
+    margin-bottom: -5%;
+    width: 11%;
+  }
+  #section-1 { 
+    grid-column: 2; 
+    grid-row: 1; 
+  }
+  #section-2 { 
+    grid-column: 2; 
+    grid-row: 2; 
+  }
+  #section-3 { 
+    grid-column: 2; 
+    grid-row: 3; 
+  }
+}
 
-#section-1-body, #section-2-body, #section-3-body {
-  padding-left: 45px;
-  width: 70%;
-}
-p {
-  line-height: 1.7;
-  font-size: 16px;
-}
-#img-appdev, #img-ba, #img-bi {
-  margin-right: 20px;
-}
-
-#section-1-title, #section-2-title, #section-3-title {
-  padding-top: -10%;
+/* DESKTOP (md) */
+@media screen and (min-width: 960px) {
+  .grid-container-services {
+    background: #EEEEEE;
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr 1fr 60px;
+    grid-column-gap: 20px;
+    grid-template-rows: 100%;
+    height: 30vw;
+    justify-content: flex-start;
+    margin-bottom: -70px;
+  }
+  .grid-container-services > div {
+    font-size: 2vw;
+    margin-top: 5vw;
+    text-align: left;
+    font-family: "Effra_Std_Rg";
+  }
+  p.section {
+    line-height: 2.5vw;
+    font-size: 1.45vw;
+    padding-left: 4.7vw;
+    margin-top: -1vw;
+    width: 21vw;
+  }
+  #img-appdev {
+    float: left;
+    width: 3.5vw;
+    padding-right: 1.5vw;
+  }
+  #img-ba {
+    float: left;
+    width: 2.8vw;
+    padding-right: 1.5vw;
+  }
+  #img-bi {
+    float: left;
+    width: 3vw;
+    padding-right: 1.5vw;
+  }
+  #section-1 { 
+    grid-column: 2; 
+  }
+  #section-2 { 
+    grid-column: 3; 
+  }
+  #section-3 { 
+    grid-column: 4; 
+  }
+  #section-1-title, #section-2-title, #section-3-title {
+    margin-top: 1%;
+  }
 }

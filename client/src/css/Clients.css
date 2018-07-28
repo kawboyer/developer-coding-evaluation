@@ -1,21 +1,32 @@
+@font-face {
+  /* Bold */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  /* Light */
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  /* Medium */
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
+  /* Regular */
+  font-family: "Effra_Std_Rg";
+  src: url("../assets/fonts/Effra_Std_Rg.ttf");
+}
+
 .grid-container-clients {
   display: grid;
-
   grid-template-columns: 90px 1fr 1fr 1fr 1fr 90px;
   grid-column-gap: 15px;
   grid-template-rows: repeat(2, 1fr 1fr);
-  /* [row1-start] 90px 1fr 1fr 1fr 1fr 90px [row1-end]
-  [row2-start] 90px 1fr 1fr 1fr 1fr 90px [row2-end]; */
-  /* grid-template-areas: ". box-1 box-1 box-2 box-3 ."; */
   grid-auto-flow: row;
   justify-content: flex-start;
-  /* margin-top: -70px; */
-  margin-bottom: 20%;
+  margin-bottom: -35%;
 }
 .grid-container-clients > div {
   font-size: 24px;
   height: 315px;
   text-align: left;
+  font-family: "Effra_Std_Rg";
 }
 
 #box-1 {
