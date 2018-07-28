@@ -1,7 +1,17 @@
-/* @font-face {
-  font-family: 'Effra';
-  src: url('/assets/fonts') format('truetype');
-} */
+@font-face {
+  /* Bold */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  /* Light */
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  /* Medium */
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
+  /* Regular */
+  font-family: "Effra_Std_Rg";
+  src: url("../assets/fonts/Effra_Std_Rg.ttf");
+}
 
 #background-header { 
   width: 100%;
@@ -13,6 +23,7 @@
 }
 .title {
   color: white;
+  font-family: "Effra_Std_Rg";
   font-size: 5.5vw;
   line-height: 8vw;
   left: 50%;

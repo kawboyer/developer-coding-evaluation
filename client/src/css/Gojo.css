@@ -1,4 +1,40 @@
-#button-gojo {
+@font-face {
+  /* Bold */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  /* Light */
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  /* Medium */
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
+  /* Regular */
+  font-family: "Effra_Std_Rg";
+  src: url("../assets/fonts/Effra_Std_Rg.ttf");
+}
+
+.grid-container-gojo {
+  display: grid;
+  grid-template-columns: 90px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 90px;
+  grid-column-gap: 15px;
+  /* grid-template-rows: repeat(2, 1fr 1fr); */
+  grid-auto-flow: row;
+  justify-content: flex-start;
+  /* margin-bottom: 20%; */
+}
+.grid-container-gojo > div {
+  font-size: 24px;
+  /* height: 315px; */
+  text-align: left;
+  font-family: "Effra_Std_Rg";
+}
+
+#image-bg-gojo {
+  grid-column: 1 / -1;
+
+}
+
+/* #button-gojo {
   position: absolute;
   top: 135%;
   background: #3885CD;
@@ -13,21 +49,12 @@
   opacity: 0.9;
   border: solid;
 }
-/* .body-gojo {
-  position: absolute;
-  left: 50%;
-  top: 125%;
-  color: #616161;
-} */
 .image-gojo {
   position: fixed;
-  /* top: 98.5%; */
-  /* left: 4vw; */
   height: 130%;
-  /* padding-bottom: 60vw;  */
   top: 50vw;
-}
-.image-bg-gojo {
+} */
+/* .image-bg-gojo {
   position: absolute;
   left: 0vw;
   padding-bottom: 2vw;
@@ -42,4 +69,4 @@
   position: absolute;
   left: 50%;
   top: 110%;
-}
+} */
