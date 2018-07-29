@@ -20,8 +20,8 @@ class App extends Component {
       <div className="App">
         {/* <Header /> */}
         <Services />
-        {/* <Clients />
-        <Gojo /> */}
+        <Clients />
+        {/* <Gojo /> */}
         {/* <FifthThird /> */}
         {/* <Chhn /> */}
         {/* <Connect /> */}

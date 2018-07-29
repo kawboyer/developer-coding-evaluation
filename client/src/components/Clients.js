@@ -35,15 +35,12 @@ const Clients = () => (
       </div>
 
       <div id="box-6">
-        <img src={rackroom} id="img-rackroom" alt="Rack Room Shoes logo" width="250px"/>
-      </div>
-
-      <div id="box-7">
         <img src={pg} id="img-pg" alt="P and G logo" width="250px"/>
       </div>
 
-
-      
+      <div id="box-7">
+        <img src={rackroom} id="img-rackroom" alt="Rack Room Shoes logo" width="250px"/>
+      </div>
     </div>
 
     

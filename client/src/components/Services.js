@@ -9,13 +9,13 @@ const Services = () => (
   <section>
     <div className="grid-container-services">
 
-    <div id="section-1">
-      <img id="img-bi" src={bi} alt="Logo for Business Intelligence"/>
-      <div>
-        <h3 id="section-1-title">Business Intelligence</h3>
-        <p className="section">We use technologies to turn data into knowledge that can help you manage and monitor your business, from anywhere.</p>
+      <div id="section-1">
+        <img id="img-bi" src={bi} alt="Logo for Business Intelligence"/>
+        <div>
+          <h3 id="section-1-title">Business Intelligence</h3>
+          <p className="section">We use technologies to turn data into knowledge that can help you manage and monitor your business, from anywhere.</p>
+        </div>
       </div>
-    </div>
 
       <div id="section-2">
         <img id="img-appdev" src={appdev} alt="Logo for App Development"/>
