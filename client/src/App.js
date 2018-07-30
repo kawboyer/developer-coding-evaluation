@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './components/Header.js';
+// import Header from './components/Header.js';
 import Services from './components/Services.js';
 import Clients from './components/Clients.js';
 import Gojo from './components/Gojo.js';
@@ -21,7 +21,7 @@ class App extends Component {
         {/* <Header /> */}
         <Services />
         <Clients />
-        {/* <Gojo /> */}
+        <Gojo />
         {/* <FifthThird /> */}
         {/* <Chhn /> */}
         {/* <Connect /> */}
