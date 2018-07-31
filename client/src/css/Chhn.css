@@ -78,3 +78,68 @@
     width: 37vw;
   }
 }
+
+/* DESKTOP (md) */
+@media screen and (min-width: 960px) {
+  .grid-container-chhn {
+    display: grid;
+    grid-template-columns: 5vw 1fr 1fr 5vw;
+    grid-column-gap: 15px;
+    grid-auto-flow: row;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .grid-container-chhn > div {
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 5vw;
+    text-align: left;
+  }
+  .image-chhn {
+    float: left;
+    grid-column: 2; 
+    grid-row: 1;
+    margin: -3vw 0 0 -14.8vw;
+    position: relative;
+    overflow: hidden;
+    width: 60.5vw;
+    z-index: 2;
+  }
+  .image-bg-chhn {
+    grid-column: 1 / -1; 
+    grid-row: 1;
+  }
+  .content-chhn {
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 2.3vw;
+    z-index: 2;
+  }
+  .title-chhn {
+    font-size: 2.4vw;
+    margin: 10vw 0 0 0;
+    width: 20vw;
+  }
+  .subtitle-chhn {
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    margin: 0.4vw 0 0 0;
+  }
+  .body-chhn {
+    font-size: 1.7vw;
+    margin: 2.3vw 0 0 0;
+    line-height: 1.5;
+    width: 30vw;
+  }
+  #button-chhn {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0.4vw;
+    color: black;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    height: 4vw;
+    margin: 3vw 0 0 0;
+    width: 12vw;
+  }
+}

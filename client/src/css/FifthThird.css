@@ -89,7 +89,6 @@
   .grid-container-fifththird {
     display: grid;
     grid-template-columns: 5vw 1fr 1fr 5vw;
-    /* grid-template-rows: 1fr 1fr 1fr; */
     grid-column-gap: 15px;
     grid-auto-flow: row;
     justify-content: flex-start;
