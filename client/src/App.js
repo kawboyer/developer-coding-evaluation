@@ -4,7 +4,7 @@ import Services from './components/Services.js';
 import Clients from './components/Clients.js';
 import Gojo from './components/Gojo.js';
 import FifthThird from './components/FifthThird.js';
-// import Chhn from './components/Chhn.js';
+import Chhn from './components/Chhn.js';
 // import Connect from './components/Connect.js';
 // import Footer from './components/Footer.js';
 import './App.css';
@@ -23,7 +23,7 @@ class App extends Component {
         <Clients />
         <Gojo />
         <FifthThird />
-        {/* <Chhn /> */}
+        <Chhn />
         {/* <Connect /> */}
         {/* <Footer /> */}
       </div>
