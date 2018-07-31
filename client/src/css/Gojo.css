@@ -24,27 +24,25 @@
     overflow: hidden;
   }
   .grid-container-gojo > div {
+    font-family: "Effra_Std_Rg";
     font-size: 24px;
     text-align: left;
-    font-family: "Effra_Std_Rg";
   }
   #color-background-gojo {
-    background: #E6E6E6; 
+    background: #E6E6E6;
+    bottom: 192.5vw; 
     grid-column: 1 / -1; 
     height: 23.9vw;
     opacity: 0.85;
     position: relative;
-    /* bottom: 93.25vw; */
-    bottom: 192.5vw;
   }
   #color-background-gojo2 {
     background: #E6E6E6; 
+    bottom: 138.6vw;
     grid-column: 1 / -1; 
     height: 90.7vw;
     opacity: 0.85;
     position: relative;
-    /* bottom: 114.7vw; */
-    bottom: 138.6vw;
   }
   #image-gojo {
     grid-column: 2; 

@@ -1,45 +1,117 @@
-.image-5th3rd {
-  position: absolute;
-  display: inline-block;
-  padding-top: 10%;
-  size: 120%;
+@font-face {
+  /* Bold */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  /* Light */
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  /* Medium */
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
+  /* Regular */
+  font-family: "Effra_Std_Rg";
+  src: url("../assets/fonts/Effra_Std_Rg.ttf");
 }
 
-.image-bg-5th3rd {
+/* MOBILE (xs)  */
+@media screen and (max-width: 600px) {
+  .grid-container-fifththird {
+    display: grid;
+    grid-template-columns: 5vw 1fr 15vw;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .grid-container-fifththird > div {
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 24px;
+    text-align: center;
+  }
+  .image-fifththird {
+    float: left;
+    grid-column: 2; 
+    grid-row: 1;
+    margin: 15vw -12vw 0 -12vw;
+    position: relative;
+    overflow: hidden;
+    width: 114vw;
+    z-index: 2;
+  }
+  .image-bg-fifththird {
+    background: #2F3D49;
+    float: right;
+    grid-column: 1 / -1; 
+    grid-row: 1;
+    height: 196vw;
+    margin: 0 0 0 -25vw;
+    overflow: hidden;
+    width: 350vw;
+  }
+  .content-fifththird {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 108vw;
+    z-index: 2;
+  }
+  .title-fifththird {
+    font-size: 7.5vw;
+  }
+  .subtitle-fifththird {
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    margin-top: -5vw;
+  }
+  .body-fifththird {
+    font-size: 4.5vw;
+    line-height: 1.5;
+    margin: 9vw 0 0 5vw;
+    width: 80vw;
+  }
+  #button-fifththird {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 1vw;
+    color: black;
+    font-family: "Effra_Std_Rg";
+    font-size: 4.3vw;
+    font-weight: bolder;
+    height: 12vw;
+    margin: 10vw 0 0 0;
+    width: 37vw;
+  }
+
+}
+
+/* .image-bg-5th3rd {
   background-color: #303549;
   width: "100%";
-}
-
-/* .content {
 } */
-
-.title-5th3rd {
+/* .title-5th3rd {
   position: absolute;
   top: 190%;
   left: 15%;
   color: #FDFEFE;
-}
-
-.subtitle-5th3rd {
+} */
+/* .subtitle-5th3rd {
   position: absolute;
   top: 195%;
   left: 15%;
   text-transform: uppercase;
   color: #FDFEFE;
-}
-
-.body-5th3rd {
+} */
+/* .body-5th3rd {
   position: absolute;
   top: 200%;
   left: 15%;
   color: #FDFEFE;
-}
-
-#button-5th3rd {
+} */
+/* #button-5th3rd {
   position: absolute;
   top: 210%;
   left: 20%;
   background: #FFFFFF;
   color: #303549;
   padding: 15px;
-}
+} */
