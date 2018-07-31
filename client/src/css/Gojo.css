@@ -21,6 +21,7 @@
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: row;
     justify-content: flex-start;
+    margin-bottom: -138.7vw;
     overflow: hidden;
   }
   .grid-container-gojo > div {
@@ -115,6 +116,7 @@
     grid-template-columns: 10vw 1fr 1fr 10vw;
     grid-column-gap: 15px;
     grid-auto-flow: row;
+    margin-bottom: -14.2vw;
     justify-content: flex-start;
   }
   .grid-container-gojo > div {
@@ -177,7 +179,7 @@
     font-family: "Effra_Std_Rg";
     text-align: left;
     font-size: 1.8vw;
-    margin: 19vw 0 0 5vw;
+    margin: 19vw 0 -10vw 5vw;
     line-height: 1.5;
     z-index: 2;
     width: 30vw;

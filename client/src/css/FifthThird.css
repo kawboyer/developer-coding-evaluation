@@ -81,37 +81,72 @@
     margin: 10vw 0 0 0;
     width: 37vw;
   }
-
 }
 
-/* .image-bg-5th3rd {
-  background-color: #303549;
-  width: "100%";
-} */
-/* .title-5th3rd {
-  position: absolute;
-  top: 190%;
-  left: 15%;
-  color: #FDFEFE;
-} */
-/* .subtitle-5th3rd {
-  position: absolute;
-  top: 195%;
-  left: 15%;
-  text-transform: uppercase;
-  color: #FDFEFE;
-} */
-/* .body-5th3rd {
-  position: absolute;
-  top: 200%;
-  left: 15%;
-  color: #FDFEFE;
-} */
-/* #button-5th3rd {
-  position: absolute;
-  top: 210%;
-  left: 20%;
-  background: #FFFFFF;
-  color: #303549;
-  padding: 15px;
-} */
+/* DESKTOP (md) */
+@media screen and (min-width: 960px) {
+  .grid-container-fifththird {
+    display: grid;
+    grid-template-columns: 5vw 1fr 1fr 5vw;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-column-gap: 15px;
+    grid-auto-flow: row;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .grid-container-fifththird > div {
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 5vw;
+    text-align: left;
+  }
+  .image-fifththird {
+    float: right;
+    grid-column: 3; 
+    grid-row: 1;
+    margin: 5.8vw -22vw -15vw -17vw;
+    position: relative;
+    overflow: hidden;
+    width: 81vw;
+    z-index: 2;
+  }
+  .image-bg-fifththird {
+    background: #2F3D49;
+    grid-column: 1 / -1; 
+    grid-row: 1;
+    width: 100vw;
+  }
+  .content-fifththird {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 5vw;
+    z-index: 2;
+  }
+  .title-fifththird {
+    font-size: 2.6vw;
+    margin: 17.5vw 0 0 0;
+  }
+  .subtitle-fifththird {
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    margin: 0.4vw 0 0 0;
+  }
+  .body-fifththird {
+    font-size: 1.7vw;
+    margin: 2.3vw 0 0 0;
+    line-height: 1.5;
+    width: 30vw;
+  }
+  #button-fifththird {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0.4vw;
+    color: black;
+    font-family: "Effra_Std_Rg";
+    font-size: 1.5vw;
+    font-weight: bolder;
+    height: 3.9vw;
+    margin: 2.5vw 0 0 0;
+    width: 12.5vw;
+  }
+}
