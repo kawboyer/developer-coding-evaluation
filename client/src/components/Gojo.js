@@ -6,10 +6,11 @@ import '../css/Gojo.css';
 const Gojo = () => (
   <section> 
     <div className="grid-container-gojo">
-      {/* <img id="image-gojo" src={image} alt="Gojo"/> */}
-      {/* <div id="color-background-gojo">Here</div> */}
-      {/* <img id="image-bg-gojo" src={imageBg} alt="Gojo Background" width="100%" /> */}
-      {/* <h2 className="title-gojo">
+      <div id="color-background-gojo"></div>
+      <img id="image-bg-gojo" src={imageBg} alt="Gojo Background" width="100%" />
+      <img id="image-gojo" src={image} alt="Gojo"/>
+      <div id="color-background-gojo2"></div>
+      <h2 className="title-gojo">
         Gojo
       </h2>
       <h4 className="subtitle-gojo">
@@ -18,7 +19,7 @@ const Gojo = () => (
       <h4 className="body-gojo">
         Reducing the spread of hospital infections with the Internet of Things.
       </h4>
-      <button id="button-gojo">Learn More</button> */}
+      <button id="button-gojo">Learn More</button>
     </div>
   </section>
 );

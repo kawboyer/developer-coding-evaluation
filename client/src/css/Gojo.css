@@ -13,60 +13,189 @@
   src: url("../assets/fonts/Effra_Std_Rg.ttf");
 }
 
-.grid-container-gojo {
-  display: grid;
-  grid-template-columns: 90px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 90px;
-  grid-column-gap: 15px;
-  /* grid-template-rows: repeat(2, 1fr 1fr); */
-  grid-auto-flow: row;
-  justify-content: flex-start;
-  /* margin-bottom: 20%; */
-}
-.grid-container-gojo > div {
-  font-size: 24px;
-  /* height: 315px; */
-  text-align: left;
-  font-family: "Effra_Std_Rg";
+/* MOBILE (xs)  */
+@media screen and (max-width: 600px) {
+  .grid-container-gojo {
+    display: grid;
+    grid-template-columns: 5vw 1fr 5vw;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .grid-container-gojo > div {
+    font-size: 24px;
+    text-align: left;
+    font-family: "Effra_Std_Rg";
+  }
+  #color-background-gojo {
+    background: #E6E6E6; 
+    grid-column: 1 / -1; 
+    height: 23.9vw;
+    opacity: 0.85;
+    position: relative;
+    /* bottom: 93.25vw; */
+    bottom: 192.5vw;
+  }
+  #color-background-gojo2 {
+    background: #E6E6E6; 
+    grid-column: 1 / -1; 
+    height: 90.7vw;
+    opacity: 0.85;
+    position: relative;
+    /* bottom: 114.7vw; */
+    bottom: 138.6vw;
+  }
+  #image-gojo {
+    grid-column: 2; 
+    grid-row: 1;
+    width: 89vw;
+    margin-top: 12vw;
+    position: relative;
+    z-index: 2;
+  }
+  #image-bg-gojo {
+    float: right;
+    grid-column: 1 / -1; 
+    grid-row: 1;
+    margin: 30vw 0vw 0vw -32vw;
+    padding-right: 10vw;
+    overflow: hidden;
+    width: 163%;
+  }
+  .title-gojo {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+    font-family: "Effra_Std_Rg";
+    font-weight: bold;
+    font-size: 7vw;
+    margin-left: 3.5vw;
+    z-index: 2;
+  }
+  .subtitle-gojo {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: "Effra_Std_Rg";
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    margin: 16vw 0 0 3.5vw;
+    z-index: 2;
+  }
+  .body-gojo {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: "Effra_Std_Rg";
+    text-align: left;
+    font-size: 4.5vw;
+    margin: 26vw 0 0 3.5vw;
+    line-height: 1.5;
+    z-index: 2;
+    width: 80vw;
+  }
+  #button-gojo {
+    background: #3885CD;
+    border: none;
+    border-radius: 1vw;
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 4.3vw;
+    grid-column: 2;
+    grid-row: 2;
+    height: 12vw;
+    margin: 50vw 0 0 3.5vw;
+    width: 37vw;
+    z-index: 2;
+  }
 }
 
-#image-bg-gojo {
-  grid-column: 1 / -1;
-
+/* DESKTOP (md) */
+@media screen and (min-width: 960px) {
+  .grid-container-gojo {
+    display: grid;
+    grid-template-columns: 10vw 1fr 1fr 10vw;
+    grid-column-gap: 15px;
+    grid-auto-flow: row;
+    justify-content: flex-start;
+  }
+  .grid-container-gojo > div {
+    font-size: 24px;
+    text-align: left;
+    font-family: "Effra_Std_Rg";
+  }
+  #color-background-gojo {
+    background: #E6E6E6; 
+    grid-column: 1 / -1; 
+    height: 5vw;
+    opacity: 0.85;
+    position: relative;
+    bottom: 60vw;
+  }
+  #image-bg-gojo {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    margin-top: 13.8vw;
+  }
+  #image-gojo {
+    bottom: -2.7vw;
+    grid-column: 2 / -1; 
+    grid-row: 1;
+    margin: 0 0 0 -5.5vw;
+    position: relative;
+    z-index: 2;
+    width: 45vw;
+  }
+  #color-background-gojo {
+    background: #E6E6E6; 
+    bottom: 47.2vw;
+    grid-column: 1 / -1; 
+    height: 14.2vw;
+    opacity: 0.9;
+  }
+  .title-gojo {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: left;
+    font-family: "Effra_Std_Rg";
+    /* font-weight: bold; */
+    font-size: 2.6vw;
+    margin: 11.5vw 0 0 5vw;
+    z-index: 2;
+  }
+  .subtitle-gojo {
+    grid-column: 3;
+    grid-row: 1;
+    font-family: "Effra_Std_Rg";
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    margin: 15vw 0 0 5vw;
+    z-index: 2;
+  }
+  .body-gojo {
+    grid-column: 3;
+    grid-row: 1;
+    font-family: "Effra_Std_Rg";
+    text-align: left;
+    font-size: 1.8vw;
+    margin: 19vw 0 0 5vw;
+    line-height: 1.5;
+    z-index: 2;
+    width: 30vw;
+  }
+  #button-gojo {
+    background: #3885CD;
+    border: none;
+    border-radius: 0.4vw;
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 1.5vw;
+    grid-column: 3;
+    grid-row: 1;
+    height: 3.9vw;
+    margin: 27vw 0 0 5vw;
+    width: 12.5vw;
+    z-index: 2;
+  }
 }
-
-/* #button-gojo {
-  position: absolute;
-  top: 135%;
-  background: #3885CD;
-  color: white;
-  padding: 15px;
-}
-#color-background-gojo {
-  background: #E6E6E6;
-  width: 100%;    
-  height: 9vw;
-  margin-top: -0.3vw;
-  opacity: 0.9;
-  border: solid;
-}
-.image-gojo {
-  position: fixed;
-  height: 130%;
-  top: 50vw;
-} */
-/* .image-bg-gojo {
-  position: absolute;
-  left: 0vw;
-  padding-bottom: 2vw;
-}
-.subtitle-gojo {
-  position: absolute;
-  top: 115%;
-  left: 50%;
-  text-transform: uppercase;
-}
-.title-gojo {
-  position: absolute;
-  left: 50%;
-  top: 110%;
-} */
