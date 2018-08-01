@@ -23,7 +23,7 @@
     grid-column-gap: 5px;
     grid-template-rows: repeat(3, 1fr 1fr 1fr);
     grid-auto-flow: row;
-    height: 195vw;
+    height: 200.5vw;
     padding-top: 10vw;
     padding-bottom: -10vw;
   }
