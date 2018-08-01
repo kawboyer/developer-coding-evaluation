@@ -10,15 +10,15 @@ const Chhn = () => (
       <img className="image-bg-chhn" src={imageBg} alt="Christ Hospital Health Network background image" />
 
       <div className="content-chhn">
-        <h2 className="title-chhn">
+        <h1 className="title-chhn">
           The Christ Hospital Health Network
-        </h2>
-        <h4 className="subtitle-chhn">
+        </h1>
+        <p className="subtitle-chhn">
           Digital Platform
-        </h4>
-        <h4 className="body-chhn">
+        </p>
+        <p className="body-chhn">
           A digital front door to the finest patient experiences.
-        </h4>
+        </p>
         <button id="button-chhn">Learn More</button>
       </div>
     </div>
