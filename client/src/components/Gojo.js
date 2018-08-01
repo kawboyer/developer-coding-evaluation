@@ -10,15 +10,15 @@ const Gojo = () => (
       <img id="image-bg-gojo" src={imageBg} alt="Gojo Background" width="100%" />
       <img id="image-gojo" src={image} alt="Gojo"/>
       <div id="color-background-gojo2"></div>
-      <h2 className="title-gojo">
+      <h1 className="title-gojo">
         Gojo
-      </h2>
-      <h4 className="subtitle-gojo">
+      </h1>
+      <p className="subtitle-gojo">
         Internet of Things
-      </h4>
-      <h4 className="body-gojo">
+      </p>
+      <p className="body-gojo">
         Reducing the spread of hospital infections with the Internet of Things.
-      </h4>
+      </p>
       <button id="button-gojo">Learn More</button>
     </div>
   </section>
