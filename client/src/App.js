@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Header from './components/Header.js';
+import Header from './components/Header.js';
 import Services from './components/Services.js';
 import Clients from './components/Clients.js';
 import Gojo from './components/Gojo.js';
@@ -11,14 +11,14 @@ import './App.css';
 
 
 class App extends Component {
-  state = {
-    response: ''
-  };
+  // state = {
+  //   response: ''
+  // };
 
   render() {
     return (
       <div className="App">
-        {/* <Header /> */}
+        <Header />
         <Services />
         <Clients />
         <Gojo />

@@ -13,50 +13,68 @@
   src: url("../assets/fonts/Effra_Std_Rg.ttf");
 }
 
-#background-header { 
-  width: 100%;
-  height: 100%;
-}
-#logo-cardinal {
-  top: 5%;
-  width: 12%;
-}
-.title {
-  color: white;
-  font-family: "Effra_Std_Rg";
-  font-size: 5.5vw;
-  line-height: 8vw;
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  top: 40%;
-  transform: translate( -50%, -50%);
-  width: 70%;
-}
-
 /* MOBILE (xs)  */
-@media screen and (max-width: 768px) {
-  #background-header {
+@media screen and (max-width: 600px) {
+  .grid-container-header {
+    display: grid;
+    grid-template-columns: 8vw 1fr 8vw;
+    grid-column-gap: 5px;
+    grid-auto-flow: row;
+    justify-content: flex-start;
+    margin-bottom: -5vw;
+    overflow: hidden;
+  }
+  .grid-container-header > div {
+    align-content: center;
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 28vw;
+  }
+  #background-image-header {
+    grid-column: 1 /-1;
     float: right;
-    margin: 0 -28% -10% 0;
-    width: 200%;
+    margin: 0 0 -11.5vw -81vw;
+    overflow: hidden;
+    width: 210vw;
   }
   #logo-cardinal {
-    left: 30vw;
-    position: fixed;
-    top: 9vw;
-    width: 44vw;
+    grid-column: 2;
+    margin: -76.7vw 0 0 21.9vw;
+    position: relative;
+    width: 45vw;
   }
-  .title {
-    font-size: 7vw;
-    line-height: 13vw;
-    top: 46vw;
-    width: 90%;
+  .title-header {
+    color: white;
+    grid-column: 2;
+    font-family: "Effra_Std_Rg";
+    font-size: 7.52vw;
+    line-height: 14vw;
+    margin: -46.2vw 0 0 0;
   }
 }
 
 /* DESKTOP (md) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
+  #background-header { 
+    width: 100%;
+    height: 100%;
+  }
+  #logo-cardinal {
+    top: 5%;
+    width: 12%;
+  }
+  .title {
+    color: white;
+    font-family: "Effra_Std_Rg";
+    font-size: 5.5vw;
+    line-height: 8vw;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transform: translate( -50%, -50%);
+    width: 70%;
+  }
   #logo-cardinal {
     left: 8vw;
     position: absolute;
