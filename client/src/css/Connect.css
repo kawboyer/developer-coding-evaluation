@@ -89,8 +89,10 @@
     font-weight: bolder;
   }
   #map {
+    border: solid 0.2vw;
     border-radius: 1vw;
-    padding: 5vw;
+    margin: 5vw;
+    width: 32vw;
   }
   #contact-phone {
     color: black;

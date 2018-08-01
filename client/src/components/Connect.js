@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import map from '../assets/map/map.jpg';
 import '../css/Connect.css';
 
 const Connect = () => (
@@ -28,7 +29,7 @@ const Connect = () => (
             <p className="subtitle-connect">Come by our office</p>
             <p>222 S. Church St. Suite 500,</p>
             <p>Charlotte, NC 28202</p>
-            <img src="../assets/map/map.jpg" alt="Map showing office location" id="map"/>
+            <img id="map" src={map} alt="Map showing office location" />
             <p id="contact-parking">Find parking on our map!</p>
           </div>
         </div>
