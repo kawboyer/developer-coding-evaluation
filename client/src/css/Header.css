@@ -1,82 +1,68 @@
 @font-face {
-  /* Bold */
-  font-family: "Effra_Std_Bd";
-  src: url("../assets/fonts/Effra_Std_Bd.ttf");
-  /* Light */
-  font-family: "Effra_Std_Lt";
-  src: url("../assets/fonts/Effra_Std_Lt.ttf");
-  /* Medium */
-  font-family: "Effra_Std_Md";
-  src: url("../assets/fonts/Effra_Std_Md.ttf");
-  /* Regular */
+  /* Main font-family */
   font-family: "Effra_Std_Rg";
   src: url("../assets/fonts/Effra_Std_Rg.ttf");
+  
+  /* Additional font families */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
 }
 
-/* MOBILE (xs)  */
+/* MOBILE  */
 @media screen and (max-width: 600px) {
   .grid-container-header {
     display: grid;
     grid-template-columns: 8vw 1fr 8vw;
     grid-column-gap: 5px;
-    grid-auto-flow: row;
-    justify-content: flex-start;
-    margin-bottom: -5vw;
     overflow: hidden;
-  }
-  .grid-container-header > div {
-    align-content: center;
-    color: white;
-    font-family: "Effra_Std_Rg";
-    font-size: 28vw;
-  }
-  #background-image-header {
-    grid-column: 1 /-1;
-    float: right;
-    margin: 0 0 -11.5vw -81vw;
-    overflow: hidden;
-    width: 210vw;
-  }
-  #logo-cardinal {
-    grid-column: 2;
-    margin: -76.7vw 0 0 21.9vw;
-    position: relative;
-    width: 45vw;
   }
   .title-header {
     color: white;
     grid-column: 2;
     font-family: "Effra_Std_Rg";
-    font-size: 7.52vw;
-    line-height: 14vw;
-    margin: -46.2vw 0 0 0;
+    font-size: 7.5vw;
+    line-height: 13.6vw;
+    margin: -47vw 0 0 0;
+    -webkit-transform:scale(1.03,1);
+  }
+  #image-header {
+    grid-column: 1 / -1;
+    margin: 0 0 -11.5vw -81vw;
+    width: 212vw;
+  }
+  #logo-header {
+    grid-column: 2;
+    margin: -75.7vw 0 0 19.3vw;
+    width: 44.3vw;
   }
 }
 
-/* DESKTOP (md) */
+/* DESKTOP */
 @media screen and (min-width: 960px) {
-  #background-header { 
-    width: 100%;
-    height: 100%;
+  .grid-container-header {
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    grid-column-gap: 5px;
   }
-  #logo-cardinal {
-    top: 5%;
-    width: 12%;
-  }
-  .title {
+  .title-header {
     color: white;
     font-family: "Effra_Std_Rg";
-    font-size: 5.5vw;
-    line-height: 8vw;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    transform: translate( -50%, -50%);
-    width: 70%;
+    font-size: 5.8vw;
+    line-height: 7.6vw;
+    margin: -29.2vw 0 3vw 7vw;
+    width: 65vw;
+    -webkit-transform:scale(1.03,1); 
   }
-  #logo-cardinal {
-    left: 8vw;
-    position: absolute;
+  #image-header {
+    grid-column: 1 / -1;
+    width: 100vw;
+  }
+  #logo-header {
+    margin: -43.3vw 0 0 7.7vw;
+    width: 13.8vw;
   }
 }
