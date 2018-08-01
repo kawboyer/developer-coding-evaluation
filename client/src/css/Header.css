@@ -12,12 +12,12 @@
   src: url("../assets/fonts/Effra_Std_Md.ttf");
 }
 
-/* MOBILE  */
+/* MOBILE */
 @media screen and (max-width: 600px) {
   .grid-container-header {
     display: grid;
-    grid-template-columns: 8vw 1fr 8vw;
     grid-column-gap: 5px;
+    grid-template-columns: 8vw 1fr 8vw;
     overflow: hidden;
   }
   .title-header {
@@ -31,7 +31,7 @@
   }
   #image-header {
     grid-column: 1 / -1;
-    margin: 0 0 -11.5vw -81vw;
+    margin: 0 0 -10.6vw -81vw;
     width: 212vw;
   }
   #logo-header {
