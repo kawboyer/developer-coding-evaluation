@@ -12,10 +12,10 @@ const Clients = () => (
     <div className="grid-container-clients">
 
       <div id="box-1">
-        <h1 className="box-1-title">
+        <p className="subtitle-box-1">
           Our Clients
-        </h1>
-        <p className="box-1-body">Over the years, our team has had the distinction of working with variety of brands in different industries. Here is a short list of some of the names we have worked with.</p>
+        </p>
+        <p className="body body-box-1">Over the years, our team has had the distinction of working with variety of brands in different industries. Here is a short list of some of the names we have worked with.</p>
       </div>
 
       <div id="box-2">
