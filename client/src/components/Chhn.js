@@ -6,8 +6,8 @@ import '../css/Chhn.css';
 const Chhn = () => (
   <section>
     <div className="grid-container-chhn">
-      <img className="image-chhn" src={image} />
-      <img className="image-bg-chhn" src={imageBg} alt="Christ Hospital Health Network background image" />
+      <img id="image-chhn" src={image} alt="Christ Hospital Health Network image"/>
+      <img id="image-bg-chhn" src={imageBg} alt="Christ Hospital Health Network background image" />
 
       <div className="content-chhn">
         <h1 className="title-chhn">
@@ -19,7 +19,7 @@ const Chhn = () => (
         <p className="body-chhn">
           A digital front door to the finest patient experiences.
         </p>
-        <button id="button-chhn">Learn More</button>
+        <button className="button-chhn">Learn More</button>
       </div>
     </div>
   </section>
