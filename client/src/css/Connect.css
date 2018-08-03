@@ -13,7 +13,7 @@
   src: url("../assets/fonts/Effra_Std_Rg.ttf");
 }
 
-/* MOBILE (xs)  */
+/* MOBILE */
 @media screen and (max-width: 600px) {
   .grid-container-connect {
     display: grid;
@@ -30,79 +30,97 @@
     font-size: 24px;
     text-align: center;
   }
-  .color-background-connect {
-    background: #E6E6E6;
-    grid-column: 1 / -1; 
-    height: 300vw;
-    opacity: 0.85;
-    position: relative;
-  }
   .content-connect {
     grid-column: 2;
     grid-row: 1;
     line-height: 2.5vw;
   }
-  .title-connect {
+  /* Styles */
+  .color-background-connect {
+    background: #E6E6E6;
+    grid-column: 1 / -1; 
+    height: 304.8vw;
+    opacity: 0.85;
+    position: relative;
+  }
+  .content-contact {
+    margin: 25vw 0 0 0;
+  }
+  h1.title-connect {
     font-size: 7.5vw;
+    margin: 14vw 0 0 0;
   }
-  .body-connect {
+  p.body-connect {
     font-size: 4.5vw;
-    line-height: 1.5;
+    line-height: 1.75;
+    margin: 5.2vw 0 0 12vw;
+    width: 75vw;
   }
-  #input-name, #input-email {
+  p.subtitle-connect {
+    font-family: "Effra_Std_Md";
+    font-size: 4.8vw;
+    font-weight: bolder;
+    margin: 0 0 7vw 0;
+  }
+  p.subtitle-connect-2 {
+    font-family: "Effra_Std_Md";
+    font-size: 4.8vw;
+    font-weight: bolder;
+    margin: 15.5vw 0 7vw 0;
+  }
+  .button-submit-connect {
+    background: #3885CD;
+    border: none;
     border-radius: 1vw;
-    font-size: 3.5vw;
-    height: 11vw;
-    margin: 2vw;
+    color: white;
+    font-family: "Effra_Std_Md";
+    font-size: 4.4vw;
+    font-weight: bolder;
+    grid-column: 2;
+    height: 12.9vw;
+    margin: 6.5vw 0 0 0;
+    width: 32vw;
+  }
+  #contact-parking {
+    color: #579CD4;
+    text-decoration: underline;
+  }
+  #contact-phone {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  #input-email {
+    border-radius: 1vw;
+    font-size: 4vw;
+    height: 13vw;
+    margin: 4vw 0 0 0;
+    width: 90vw;
+  }
+  #input-name {
+    border-radius: 1vw;
+    font-size: 4vw;
+    height: 13vw;
+    margin: 11vw 0 0 0;
     width: 90vw;
   }
   #input-message {
     border-radius: 1vw;
-    font-size: 3.5vw;
-    height: 47vw;
-    margin: 2vw;
+    font-size: 4vw;
+    height: 46vw;
+    margin: 4vw 0 0 0;
     width: 90vw;
   }
   input::placeholder {
     padding-left: 5vw;
     /* padding-top: 5vw; */
   }
-  #button-submit-connect {
-    background: #3885CD;
-    border: none;
-    border-radius: 1vw;
-    color: white;
-    font-family: "Effra_Std_Rg";
-    font-size: 4.3vw;
-    font-weight: bolder;
-    grid-column: 2;
-    height: 12vw;
-    margin: 5vw 0 0 0;
-    width: 32vw;
-  }
-  .subtitle-connect {
-    font-weight: bolder;
-    padding-bottom: 3vw;
-    padding-top: 10vw;
-  }
-  #contact-phone {
-    font-weight: bolder;
-  }
   #map {
     border: solid 0.2vw;
     border-radius: 1vw;
-    margin: 5vw;
-    width: 32vw;
+    margin: 8.3vw 0 3vw 0;
+    width: 36vw;
   }
-  #contact-phone {
-    color: black;
-    text-decoration: none;
-  }
-  #contact-parking {
-    color: #579CD4;
-    text-decoration: underline;
-  }
-
 }
 
 /* DESKTOP (md) */
