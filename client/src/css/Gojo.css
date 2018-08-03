@@ -30,7 +30,7 @@
   h1.title-gojo {
     grid-column: 2;
     grid-row: 2;
-    font-family: "Effra_Std_Rg";
+    font-family: "Effra_Std_Md";
     font-size: 7.3vw;
     font-weight: bolder;
     margin: 2vw 0 0 3.5vw;
@@ -136,7 +136,7 @@
     grid-column: 3;
     grid-row: 1;
     text-align: left;
-    font-family: "Effra_Std_Rg";
+    font-family: "Effra_Std_Md";
     font-weight: bolder;
     font-size: 2.3vw;
     margin: 14.7vw 0 0 4.6vw;
@@ -146,7 +146,7 @@
     grid-column: 3;
     grid-row: 1;
     font-family: "Effra_Std_Rg";
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     line-height: 1.65;
     margin: 22vw 0 -10vw 4.6vw;
     text-align: left;
@@ -168,7 +168,7 @@
     border-radius: 0.4vw;
     color: white;
     font-family: "Effra_Std_Md";
-    font-size: 1.4vw;
+    font-size: 1.25vw;
     grid-column: 3;
     grid-row: 1;
     height: 4vw;

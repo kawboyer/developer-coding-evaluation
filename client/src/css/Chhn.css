@@ -1,21 +1,20 @@
 @font-face {
-  /* Bold */
-  font-family: "Effra_Std_Bd";
-  src: url("../assets/fonts/Effra_Std_Bd.ttf");
-  /* Light */
-  font-family: "Effra_Std_Lt";
-  src: url("../assets/fonts/Effra_Std_Lt.ttf");
-  /* Medium */
-  font-family: "Effra_Std_Md";
-  src: url("../assets/fonts/Effra_Std_Md.ttf");
-  /* Regular */
+  /* Main font-family */
   font-family: "Effra_Std_Rg";
   src: url("../assets/fonts/Effra_Std_Rg.ttf");
+  
+  /* Additional font families */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
 }
 
-/* MOBILE (xs)  */
+/* MOBILE */
 @media screen and (max-width: 600px) {
-
+  /* Grid and setup */
   .grid-container-chhn {
     display: grid;
     grid-template-columns: 5vw 1fr 5vw;
@@ -30,20 +29,6 @@
     font-size: 24px;
     text-align: left;
   }
-  .image-chhn {
-    grid-column: 2; 
-    grid-row: 1;
-    margin: 10vw 0 0 9vw;
-    overflow: hidden;
-    z-index: 2;
-  }
-  .image-bg-chhn {
-    float: right;
-    grid-column: 1 / -1; 
-    grid-row: 1;
-    margin: 0 0 20vw -188vw;
-    width: 352vw;
-  }
   .content-chhn {
     color: white;
     grid-column: 2;
@@ -51,36 +36,56 @@
     margin: 97vw 0 0 4vw;
     z-index: 2;
   }
-  .title-chhn {
-    font-weight: bold;
-    font-size: 7vw;
+  /* Styles */
+  h1.title-chhn {
+    font-family: "Effra_Std_Md";
+    font-size: 7.3vw;
+    font-weight: bolder;
+    line-height: 7.5vw;
+    margin: 5.8vw 0 0 0;
     width: 70vw;
   }
-  .subtitle-chhn {
+  p.body-chhn {
+    font-size: 4.5vw;
+    line-height: 1.55;
+    margin: 9vw 0 0 0;
+  }
+  p.subtitle-chhn {
     font-size: 3.5vw;
     text-transform: uppercase;
-    margin-top: -4vw;
+    margin: 3vw 0 0 0;
   }
-  .body-chhn {
-    font-size: 4.5vw;
-    line-height: 1.5;
-    margin-top: 8.5vw;
-  }
-  #button-chhn {
+  .button-chhn {
     background: #FFFFFF;
     border: none;
     border-radius: 1vw;
     color: black;
-    font-size: 4.3vw;
+    font-family: "Effra_Std_Md";
+    font-size: 4.4vw;
     font-weight: bolder;
-    height: 12vw;
-    margin-top: 3vw;
-    width: 37vw;
+    height: 12.9vw;
+    margin: 9.5vw 0 0 0;
+    width: 38vw;
+  }
+  #image-bg-chhn {
+    float: right;
+    grid-column: 1 / -1; 
+    grid-row: 1;
+    margin: 0 0 20vw -188vw;
+    width: 352vw;
+  }
+  #image-chhn {
+    grid-column: 2; 
+    grid-row: 1;
+    margin: 9vw 0 0 9vw;
+    overflow: hidden;
+    z-index: 2;
   }
 }
 
-/* DESKTOP (md) */
+/* DESKTOP */
 @media screen and (min-width: 960px) {
+  /* Grid and setup */
   .grid-container-chhn {
     display: grid;
     grid-template-columns: 5vw 1fr 1fr 5vw;
@@ -93,7 +98,52 @@
     font-size: 5vw;
     text-align: left;
   }
-  .image-chhn {
+  .content-chhn {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 0 0 0 2vw;
+    z-index: 2;
+  }
+  /* Styles */  
+  h1.title-chhn {
+    font-family: "Effra_Std_Md";
+    font-size: 2.3vw;
+    line-height: 2.8vw;
+    margin: 10.5vw 0 0 0;
+    width: 20vw;
+  }
+  p.body-chhn {
+    font-size: 1.7vw;
+    margin: 2.7vw 0 0 0;
+    line-height: 1.65;
+    width: 30vw;
+  }
+  p.subtitle-chhn {
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    margin: 0.4vw 0 0 0;
+  }
+  .button-chhn {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0.4vw;
+    color: black;
+    font-family: "Effra_Std_Md";
+    font-size: 1.25vw;
+    font-weight: bolder;
+    height: 4vw;
+    margin: 2.8vw 0 0 0;
+    width: 11.8vw;
+  }
+  #image-bg-chhn {
+    grid-column: 1 / -1; 
+    grid-row: 1;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    width: 100vw;
+  }
+  #image-chhn {
     float: left;
     grid-column: 2; 
     grid-row: 1;
@@ -102,43 +152,5 @@
     overflow: hidden;
     width: 60.5vw;
     z-index: 2;
-  }
-  .image-bg-chhn {
-    grid-column: 1 / -1; 
-    grid-row: 1;
-    width: 100vw;
-  }
-  .content-chhn {
-    grid-column: 3;
-    grid-row: 1;
-    margin-left: 2.3vw;
-    z-index: 2;
-  }
-  .title-chhn {
-    font-size: 2.4vw;
-    margin: 10vw 0 0 0;
-    width: 20vw;
-  }
-  .subtitle-chhn {
-    text-transform: uppercase;
-    font-size: 1.2vw;
-    margin: 0.4vw 0 0 0;
-  }
-  .body-chhn {
-    font-size: 1.7vw;
-    margin: 2.3vw 0 0 0;
-    line-height: 1.5;
-    width: 30vw;
-  }
-  #button-chhn {
-    background: #FFFFFF;
-    border: none;
-    border-radius: 0.4vw;
-    color: black;
-    font-size: 1.4vw;
-    font-weight: bolder;
-    height: 4vw;
-    margin: 1vw 0 0 -10vw;
-    width: 12vw;
   }
 }
