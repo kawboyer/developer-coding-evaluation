@@ -11,6 +11,7 @@ const Gojo = () => (
       <img id="image-gojo" src={image} alt="Gojo"/>
       <div id="background-gojo2"></div>
       <div id="background-gojo3"></div>
+      
       <h1 className="title-gojo">
         Gojo
       </h1>

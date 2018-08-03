@@ -52,7 +52,7 @@
     grid-column-gap: 5px;
   }
   /* Styles */
-  .title-header {
+  p.title-header {
     color: white;
     font-family: "Effra_Std_Rg";
     font-size: 5.8vw;

@@ -1,20 +1,20 @@
 @font-face {
-  /* Bold */
-  font-family: "Effra_Std_Bd";
-  src: url("../assets/fonts/Effra_Std_Bd.ttf");
-  /* Light */
-  font-family: "Effra_Std_Lt";
-  src: url("../assets/fonts/Effra_Std_Lt.ttf");
-  /* Medium */
-  font-family: "Effra_Std_Md";
-  src: url("../assets/fonts/Effra_Std_Md.ttf");
-  /* Regular */
+  /* Main font-family */
   font-family: "Effra_Std_Rg";
   src: url("../assets/fonts/Effra_Std_Rg.ttf");
+  
+  /* Additional font families */
+  font-family: "Effra_Std_Bd";
+  src: url("../assets/fonts/Effra_Std_Bd.ttf");
+  font-family: "Effra_Std_Lt";
+  src: url("../assets/fonts/Effra_Std_Lt.ttf");
+  font-family: "Effra_Std_Md";
+  src: url("../assets/fonts/Effra_Std_Md.ttf");
 }
 
-/* MOBILE (xs)  */
+/* MOBILE */
 @media screen and (max-width: 600px) {
+  /* Grid */
   .grid-container-fifththird {
     display: grid;
     grid-template-columns: 5vw 1fr 15vw;
@@ -30,7 +30,41 @@
     font-size: 24px;
     text-align: center;
   }
-  .image-fifththird {
+  .content-fifththird {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 107.5vw;
+    z-index: 2;
+  }
+  /* Styles */
+  h1.title-fifththird {
+    font-size: 7.3vw;
+  }
+  p.body-fifththird {
+    font-size: 4.5vw;
+    line-height: 1.55;
+    margin: 8.5vw 0 0 5vw;
+    width: 80vw;
+  }
+  p.subtitle-fifththird {
+    font-size: 3.5vw;
+    font-weight: bolder;
+    margin: -4.5vw 0 0 0;
+    text-transform: uppercase;
+  }
+  .button-fifththird {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 1vw;
+    color: black;
+    font-family: "Effra_Std_Md";
+    font-size: 4.4vw;
+    font-weight: bolder;
+    height: 12.9vw;
+    margin: 10vw 0 0 0;
+    width: 38vw;
+  }
+  #image-fifththird {
     float: left;
     grid-column: 2; 
     grid-row: 1;
@@ -40,52 +74,21 @@
     width: 114vw;
     z-index: 2;
   }
-  .image-bg-fifththird {
+  #image-bg-fifththird {
     background: #2F3D49;
     float: right;
     grid-column: 1 / -1; 
     grid-row: 1;
     height: 196vw;
-    margin: 0 0 0 -25vw;
+    margin: -0.5vw 0 0 -25vw;
     overflow: hidden;
     width: 350vw;
   }
-  .content-fifththird {
-    grid-column: 2;
-    grid-row: 1;
-    margin-top: 108vw;
-    z-index: 2;
-  }
-  .title-fifththird {
-    font-size: 7.5vw;
-  }
-  .subtitle-fifththird {
-    text-transform: uppercase;
-    font-size: 3.5vw;
-    margin-top: -5vw;
-  }
-  .body-fifththird {
-    font-size: 4.5vw;
-    line-height: 1.5;
-    margin: 9vw 0 0 5vw;
-    width: 80vw;
-  }
-  #button-fifththird {
-    background: #FFFFFF;
-    border: none;
-    border-radius: 1vw;
-    color: black;
-    font-family: "Effra_Std_Rg";
-    font-size: 4.3vw;
-    font-weight: bolder;
-    height: 12vw;
-    margin: 10vw 0 0 0;
-    width: 37vw;
-  }
 }
 
-/* DESKTOP (md) */
+/* DESKTOP */
 @media screen and (min-width: 960px) {
+  /* Grid */
   .grid-container-fifththird {
     display: grid;
     grid-template-columns: 5vw 1fr 1fr 5vw;
@@ -93,6 +96,7 @@
     grid-auto-flow: row;
     justify-content: flex-start;
     overflow: hidden;
+    margin: 0 0 -16.1vw 0;
   }
   .grid-container-fifththird > div {
     color: white;
@@ -100,53 +104,52 @@
     font-size: 5vw;
     text-align: left;
   }
-  .image-fifththird {
-    float: right;
-    grid-column: 3; 
-    grid-row: 1;
-    margin: 5.8vw -22vw -15vw -17vw;
-    position: relative;
-    overflow: hidden;
-    width: 81vw;
-    z-index: 2;
-  }
-  .image-bg-fifththird {
-    background: #2F3D49;
-    grid-column: 1 / -1; 
-    grid-row: 1;
-    width: 100vw;
-  }
   .content-fifththird {
     grid-column: 2;
     grid-row: 1;
     margin-left: 5vw;
-    z-index: 2;
   }
-  .title-fifththird {
-    font-size: 2.6vw;
-    margin: 17.5vw 0 0 0;
+  /* Styles */
+  h1.title-fifththird {
+    font-size: 2.3vw;
+    margin: 18vw 0 0 0;
   }
-  .subtitle-fifththird {
-    text-transform: uppercase;
-    font-size: 1.1vw;
-    margin: 0.4vw 0 0 0;
-  }
-  .body-fifththird {
-    font-size: 1.7vw;
+  p.body-fifththird {
+    font-size: 1.8vw;
     margin: 2.3vw 0 0 0;
-    line-height: 1.5;
+    line-height: 1.65;
     width: 30vw;
   }
-  #button-fifththird {
+  p.subtitle-fifththird {
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    margin: 0.6vw 0 0 0;
+  }
+  .button-fifththird {
     background: #FFFFFF;
     border: none;
     border-radius: 0.4vw;
     color: black;
-    font-family: "Effra_Std_Rg";
+    font-family: "Effra_Std_Md";
     font-size: 1.5vw;
     font-weight: bolder;
-    height: 3.9vw;
-    margin: 2.5vw 0 0 0;
-    width: 12.5vw;
+    height: 4vw;
+    margin: 2.8vw 0 0 0;
+    width: 11.8vw;
+  }
+  #image-bg-fifththird {
+    background: #2F3D49;
+    grid-column: 1 / -1; 
+    grid-row: 1;
+    width: 106.5vw;
+  }
+  #image-fifththird {
+    float: right;
+    grid-column: 3; 
+    grid-row: 1;
+    margin: 5vw -22vw 0 -17vw;
+    position: relative;
+    width: 88vw;
   }
 }
