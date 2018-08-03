@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 5vw 1fr 5vw;
     grid-template-rows: 1fr 1fr;
-    margin-bottom: -138.7vw;
+    margin-bottom: -141.4vw;
     overflow: hidden;
   }
   .grid-container-gojo > div {
@@ -48,21 +48,7 @@
     width: 80vw;
     z-index: 2;
   }
-  .button-gojo {
-    background: #3885CD;
-    border: none;
-    border-radius: 1vw;
-    color: white;
-    font-family: "Effra_Std_Rg";
-    font-size: 4.4vw;
-    grid-column: 2;
-    grid-row: 2;
-    height: 12.9vw;
-    margin: 45vw 0 0 3.5vw;
-    width: 38vw;
-    z-index: 3;
-  }
-  .subtitle-gojo {
+  p.subtitle-gojo {
     grid-column: 2;
     grid-row: 2;
     font-family: "Effra_Std_Rg";
@@ -72,6 +58,20 @@
     text-align: left;
     text-transform: uppercase;
     z-index: 2;
+  }
+  .button-gojo {
+    background: #3885CD;
+    border: none;
+    border-radius: 1vw;
+    color: white;
+    font-family: "Effra_Std_Md";
+    font-size: 4.4vw;
+    grid-column: 2;
+    grid-row: 2;
+    height: 12.9vw;
+    margin: 45vw 0 0 3.5vw;
+    width: 38vw;
+    z-index: 3;
   }
   #background-gojo {
     background: #E6E6E6;
@@ -111,7 +111,6 @@
   #image-gojo {
     grid-column: 2; 
     grid-row: 1;
-    /* height: 81vw; */
     margin-top: 7.4vw;
     position: relative;
     overflow: hidden;
@@ -127,13 +126,55 @@
     display: grid;
     grid-column-gap: 15px;
     grid-template-columns: 10vw 1fr 1fr 10vw;
-    margin-bottom: -14.2vw;
-
+    margin-bottom: -14vw;
   }
   .grid-container-gojo > div {
     font-family: "Effra_Std_Rg";
   }
   /* Styles */
+  h1.title-gojo {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: left;
+    font-family: "Effra_Std_Rg";
+    font-weight: bolder;
+    font-size: 2.3vw;
+    margin: 14.7vw 0 0 4.6vw;
+    z-index: 2;
+  }
+  p.body-gojo {
+    grid-column: 3;
+    grid-row: 1;
+    font-family: "Effra_Std_Rg";
+    font-size: 1.8vw;
+    line-height: 1.65;
+    margin: 22vw 0 -10vw 4.6vw;
+    text-align: left;
+    width: 30vw;
+  }
+  p.subtitle-gojo {
+    grid-column: 3;
+    grid-row: 1;
+    font-family: "Effra_Std_Rg";
+    font-size: 1.1vw;
+    font-weight: bolder;
+    margin: 18.3vw 0 0 4.6vw;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .button-gojo {
+    background: #3885CD;
+    border: none;
+    border-radius: 0.4vw;
+    color: white;
+    font-family: "Effra_Std_Md";
+    font-size: 1.4vw;
+    grid-column: 3;
+    grid-row: 1;
+    height: 4vw;
+    margin: 30vw 0 0 4.6vw;
+    width: 11.8vw;
+  }
   #background-gojo {
     background: #E6E6E6; 
     grid-column: 1 / -1; 
@@ -141,6 +182,13 @@
     opacity: 0.85;
     position: relative;
     bottom: 47vw;
+  }
+  #color-background-gojo {
+    background: #E6E6E6; 
+    bottom: 47.2vw;
+    grid-column: 1 / -1; 
+    height: 14.2vw;
+    opacity: 0.9;
   }
   #image-bg-gojo {
     grid-column: 1 / -1;
@@ -155,55 +203,5 @@
     position: relative;
     z-index: 2;
     width: 45vw;
-  }
-  #color-background-gojo {
-    background: #E6E6E6; 
-    bottom: 47.2vw;
-    grid-column: 1 / -1; 
-    height: 14.2vw;
-    opacity: 0.9;
-  }
-  .title-gojo {
-    grid-column: 3;
-    grid-row: 1;
-    text-align: left;
-    font-family: "Effra_Std_Rg";
-    font-weight: bolder;
-    font-size: 2.3vw;
-    margin: 14.7vw 0 0 4.6vw;
-    z-index: 2;
-  }
-  .subtitle-gojo {
-    grid-column: 3;
-    grid-row: 1;
-    font-family: "Effra_Std_Rg";
-    font-size: 1.1vw;
-    font-weight: bolder;
-    margin: 18.3vw 0 0 4.6vw;
-    text-align: left;
-    text-transform: uppercase;
-  }
-  .body-gojo {
-    grid-column: 3;
-    grid-row: 1;
-    font-family: "Effra_Std_Rg";
-    font-size: 1.8vw;
-    line-height: 1.65;
-    margin: 22vw 0 -10vw 4.6vw;
-    text-align: left;
-    width: 30vw;
-  }
-  .button-gojo {
-    background: #3885CD;
-    border: none;
-    border-radius: 0.4vw;
-    color: white;
-    font-family: "Effra_Std_Rg";
-    font-size: 1.4vw;
-    grid-column: 3;
-    grid-row: 1;
-    height: 4vw;
-    margin: 30vw 0 0 4.6vw;
-    width: 11.8vw;
   }
 }

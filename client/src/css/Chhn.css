@@ -85,8 +85,6 @@
     display: grid;
     grid-template-columns: 5vw 1fr 1fr 5vw;
     grid-column-gap: 15px;
-    grid-auto-flow: row;
-    justify-content: flex-start;
     overflow: hidden;
   }
   .grid-container-chhn > div {
@@ -140,7 +138,7 @@
     font-size: 1.4vw;
     font-weight: bolder;
     height: 4vw;
-    margin: 3vw 0 0 0;
+    margin: 1vw 0 0 -10vw;
     width: 12vw;
   }
 }
