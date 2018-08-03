@@ -14,18 +14,20 @@
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
+  /* Grid */
   .grid-container-clients {
     display: grid;
     grid-column-gap: 5px;
     grid-row-gap: -10px;
     grid-template-columns: 4vw 1fr 4vw;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: -31vw 0 0 0;
+    margin: -31vw 0 -3.6vw 0;
   }
   .grid-container-clients > div {
     font-family: "Effra_Std_Rg";
     font-size: 5.5vw;
   }
+  /* Styles */
   p.body-box-1 {
     font-size: 3.8vw;
     line-height: 1.5;
@@ -116,6 +118,7 @@
 
 /* DESKTOP */
 @media screen and (min-width: 960px) {
+  /* Grid */
   .grid-container-clients {
     display: grid;
     grid-auto-flow: row;
@@ -124,13 +127,14 @@
     grid-template-rows: repeat(2, 1fr 1fr);
     height: 5vw;
     justify-content: flex-start;
-    margin: 0.5vw 0 46.3vw 0;
+    margin: 0.5vw 0 43vw 0;
   }
   .grid-container-clients > div {
     font-family: "Effra_Std_Rg";
     height: 20vw;
     text-align: left;
   }
+  /* Styles */
   p.body-box-1 {
     font-size: 1.35vw;
     line-height: 2.2vw;

@@ -14,12 +14,14 @@
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
+  /* Grid */
   .grid-container-header {
     display: grid;
     grid-column-gap: 5px;
     grid-template-columns: 8vw 1fr 8vw;
     overflow: hidden;
   }
+  /* Styles */
   .title-header {
     color: white;
     grid-column: 2;
@@ -43,11 +45,13 @@
 
 /* DESKTOP */
 @media screen and (min-width: 960px) {
+  /* Grid */
   .grid-container-header {
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
     grid-column-gap: 5px;
   }
+  /* Styles */
   .title-header {
     color: white;
     font-family: "Effra_Std_Rg";
